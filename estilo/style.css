@@ -54,13 +54,13 @@ section {
 }
 
 section#img01 {
-    background-image:url('Imagens\ desafio\ 22/image.png');
+    background-image:url('./Imagens\ desafio\ 22/image.png');
     background-position: center left;
     height: 50vh;
 
 }
 section#img02 {
-    background-image:url('Imagens\ desafio\ 22/image1.png');
+    background-image:url('./Imagens\ desafio\ 22/image1.png');
     background-position: center center;
     height: 50vh;
 }
