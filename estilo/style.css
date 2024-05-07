@@ -54,13 +54,13 @@ section {
 }
 
 section#img01 {
-    background-image:url('./Imagens\ desafio\ 22/image.png');
+    background-image:url('/Imagens\ desafio\ 22/image.png');
     background-position: center left;
     height: 50vh;
 
 }
 section#img02 {
-    background-image:url('./Imagens\ desafio\ 22/image1.png');
+    background-image:url('/Imagens\ desafio\ 22/image1.png');
     background-position: center center;
     height: 50vh;
 }
@@ -85,12 +85,8 @@ section.normal > p {
 section.imagem {
     background-color: rgb(51, 51, 51);
     color: rgb(255, 255, 255);
-    background-image: url('/image1.png');
-    background-position: center center;
-    background-size: cover; /* Garante que a imagem de fundo cubra toda a área */
-    background-repeat: no-repeat; /* Evita a repetição da imagem de fundo */
-    display: flex; /* Usa flexbox para centralizar o conteúdo vertical e horizontalmente */
-    justify-content: left;
+    background-repeat: no-repeat; 
+    display: flex; 
     align-items: center;
     background-size: cover;
     background-attachment: fixed;
